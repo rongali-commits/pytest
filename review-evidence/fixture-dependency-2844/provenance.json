@@ -1,0 +1,39 @@
+{
+  "baseline_commit": "c9c19f8e62c12834ad83193a1869cc82fe9c700e",
+  "submitted_candidate_commit": "0cf8c08a0a10d47a12890a839e152cf0983844ce",
+  "reviewed_patch_sha256": "54afc118b882450e3e958120fc7b2e17f353ef3b3067be9816c986ee98571dde",
+  "historical_records": [
+    {
+      "packaged_file": "historical-harnesses/benchmark_cache.py",
+      "sha256": "f82506216da2f1a6a4ba5a63299a77635be705c4dbcf10c194fbc22b5ca11008",
+      "bytes": 2257,
+      "relation": "byte-for-byte historical source copy; not a rerun"
+    },
+    {
+      "packaged_file": "historical-harnesses/benchmark_end_to_end.py",
+      "sha256": "adc9528cfb2d7ffcc74626664a00df4fd75aae2906e69e3285902fc5c870d4a3",
+      "bytes": 5278,
+      "relation": "byte-for-byte historical source copy; not a rerun"
+    },
+    {
+      "packaged_file": "measurements/cached-method.json",
+      "sha256": "a838ab9b568dce52d1a8639c18a159e9388363916b84657fc161574245fae87e",
+      "bytes": 577,
+      "relation": "byte-for-byte historical source copy; not a rerun"
+    },
+    {
+      "packaged_file": "measurements/whole-process-initial.json",
+      "sha256": "5ff92c32c9bb7ba00c27caad550f3e369dc91facfc11b3f50ba5993c724c36cb",
+      "bytes": 2518,
+      "relation": "byte-for-byte historical source copy; not a rerun"
+    },
+    {
+      "packaged_file": "measurements/whole-process-repeat.json",
+      "sha256": "6504cc77f5f0c800435f9ac0fdf6707507b2b61a01abed06d97409e59be3fa1d",
+      "bytes": 2521,
+      "relation": "byte-for-byte historical source copy; not a rerun"
+    }
+  ],
+  "privacy": "Personal paths, hosts and email values absent from included timing JSON; private logs and account snapshots excluded.",
+  "validation": "JSON parsed; whole-process medians, ranges and percentages recomputed exactly; portable harnesses smoke-checked only."
+}

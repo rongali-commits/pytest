@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-14",
+  "purpose": "portable harness operation only; not a performance result",
+  "python_version": "3.12.14",
+  "cached_method": {
+    "iterations_per_sample": 100,
+    "samples": 1,
+    "dependency_conditions": [
+      0,
+      1,
+      3
+    ],
+    "outcome": "passed"
+  },
+  "whole_process": {
+    "items_per_workload": 8,
+    "pairs": 1,
+    "workloads": [
+      "cached",
+      "mixed"
+    ],
+    "collection_and_outcomes_match": true,
+    "warmups_completed": true,
+    "outcome": "passed"
+  },
+  "full_scale_rerun": false,
+  "historical_numbers_unchanged": true,
+  "default_workload_text_matches_historical_harness": true
+}

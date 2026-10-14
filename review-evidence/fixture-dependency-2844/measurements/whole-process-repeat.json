@@ -1,0 +1,86 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "pairs": 5,
+  "items_per_workload": 3000,
+  "timing_scope": "entire pytest subprocess including startup and shutdown",
+  "controls": [
+    "same interpreter, packages, test workload and empty config",
+    "external plugin autoload and cache provider disabled",
+    "same ordered nodeids and successful outcomes",
+    "alternating baseline/candidate order"
+  ],
+  "workloads": {
+    "cached": {
+      "ordered_nodeids_sha256": "ce7b7c01eb5a59ac8b0ab97fcd2e7c574e2039d3c976bac77ea8e63e1c583754",
+      "pairs": [
+        {
+          "baseline": 4.932790799997747,
+          "candidate": 4.138274299999466
+        },
+        {
+          "candidate": 4.6482058000110555,
+          "baseline": 3.3247964000038337
+        },
+        {
+          "baseline": 3.219701399997575,
+          "candidate": 3.1062798999773804
+        },
+        {
+          "candidate": 3.0531879999907687,
+          "baseline": 3.0688062999979593
+        },
+        {
+          "baseline": 3.071102800022345,
+          "candidate": 3.155975600006059
+        }
+      ],
+      "baseline_median_s": 3.219701399997575,
+      "candidate_median_s": 3.155975600006059,
+      "change_percent": -1.9792456527665703,
+      "baseline_range_s": [
+        3.0688062999979593,
+        4.932790799997747
+      ],
+      "candidate_range_s": [
+        3.0531879999907687,
+        4.6482058000110555
+      ]
+    },
+    "mixed": {
+      "ordered_nodeids_sha256": "739820967d61cf75a31e0d99c363b89ce03f1aeb26fa05037f3dd1641b13e7a0",
+      "pairs": [
+        {
+          "baseline": 4.414941399998497,
+          "candidate": 4.530643699981738
+        },
+        {
+          "candidate": 4.067617399996379,
+          "baseline": 5.003539700002875
+        },
+        {
+          "baseline": 4.750097400014056,
+          "candidate": 4.820238599990262
+        },
+        {
+          "candidate": 5.094364899996435,
+          "baseline": 4.657137700007297
+        },
+        {
+          "baseline": 4.411658999975771,
+          "candidate": 5.0914840000041295
+        }
+      ],
+      "baseline_median_s": 4.657137700007297,
+      "candidate_median_s": 4.820238599990262,
+      "change_percent": 3.5021704422162347,
+      "baseline_range_s": [
+        4.411658999975771,
+        5.003539700002875
+      ],
+      "candidate_range_s": [
+        4.067617399996379,
+        5.094364899996435
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "base_commit": "c9c19f8e62c12834ad83193a1869cc82fe9c700e",
+  "iterations_per_sample": 100000,
+  "samples": 5,
+  "scope": "cached execute method with minimal request, not end-to-end pytest",
+  "results": [
+    {
+      "dependencies": 0,
+      "baseline_ns": 1392,
+      "candidate_ns": 1629,
+      "ratio": 1.17
+    },
+    {
+      "dependencies": 1,
+      "baseline_ns": 1641,
+      "candidate_ns": 1894,
+      "ratio": 1.15
+    },
+    {
+      "dependencies": 3,
+      "baseline_ns": 2845,
+      "candidate_ns": 3626,
+      "ratio": 1.27
+    }
+  ]
+}
