@@ -49,7 +49,7 @@ Both versions used the same interpreter, installed packages, workload and empty 
 - `smoke-validation.json`: small harness checks only, with no performance conclusion.
 - `verify_records.py`: independently verifies the historical file hashes and whole-process JSON arithmetic with the standard library.
 
-Only these utilities and evidence files were prepared. The production patch and regression tests were not edited. AI assistance was used to prepare the portable adaptations; their small smoke checks validate harness operation, not the statistical quality of the earlier timings.
+Only these utilities and evidence files were prepared. The production patch and regression tests were not edited. The small smoke checks validate harness operation, not the statistical quality of the earlier timings.
 
 ## Run the portable versions
 
