@@ -7,7 +7,7 @@ The isolated cached `FixtureDef.execute` measurements were **15–27% slower** w
 ## Historical measurements
 
 Baseline commit: `c9c19f8e62c12834ad83193a1869cc82fe9c700e`.
-The candidate was the reviewed working-tree patch later submitted as commit `0cf8c08a0a10d47a12890a839e152cf0983844ce`.
+The candidate was the reviewed working-tree patch later submitted as commit `0cf8c08a0a10d47a12890a839e152cf0983844ce`. The current candidate is `ea869a278b8cfc6212dad5e343790afe8b754d47` after a commit-metadata update; its source tree remains `36ee241ffc74fe61022e3293aa7495cc38061824` and the reviewed patch is unchanged. The timings below remain historical records.
 Reviewed patch SHA-256: `54afc118b882450e3e958120fc7b2e17f353ef3b3067be9816c986ee98571dde`.
 
 The records below are earlier local measurements on Windows with Python 3.12.14. They have not been replaced by a new full-scale run for this package. This package does not report new platform or interpreter coverage.
@@ -59,7 +59,7 @@ Use Python and Git in a working directory outside the pytest source tree. These 
 git clone https://github.com/pytest-dev/pytest.git pytest-repository
 git -C pytest-repository fetch origin pull/15177/head
 git -C pytest-repository worktree add --detach ../pytest-baseline c9c19f8e62c12834ad83193a1869cc82fe9c700e
-git -C pytest-repository worktree add --detach ../pytest-candidate 0cf8c08a0a10d47a12890a839e152cf0983844ce
+git -C pytest-repository worktree add --detach ../pytest-candidate ea869a278b8cfc6212dad5e343790afe8b754d47
 python -m venv .venv
 ```
 

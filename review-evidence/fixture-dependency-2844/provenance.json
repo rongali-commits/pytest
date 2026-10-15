@@ -35,5 +35,14 @@
     }
   ],
   "privacy": "Personal paths, hosts and email values absent from included timing JSON; private logs and account snapshots excluded.",
-  "validation": "JSON parsed; whole-process medians, ranges and percentages recomputed exactly; portable harnesses smoke-checked only."
+  "validation": "JSON parsed; whole-process medians, ranges and percentages recomputed exactly; portable harnesses smoke-checked only.",
+  "current_candidate_commit": "ea869a278b8cfc6212dad5e343790afe8b754d47",
+  "current_candidate_tree": "36ee241ffc74fe61022e3293aa7495cc38061824",
+  "commit_metadata_update": {
+    "previous_candidate_commit": "0cf8c08a0a10d47a12890a839e152cf0983844ce",
+    "current_candidate_commit": "ea869a278b8cfc6212dad5e343790afe8b754d47",
+    "source_tree_identical": true,
+    "reviewed_patch_identical": true,
+    "measurement_note": "submitted_candidate_commit identifies the historical revision; no new performance measurements are claimed."
+  }
 }
